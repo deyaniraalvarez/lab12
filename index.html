@@ -1,1 +1,37 @@
 laboratorio12
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Laboratorio 12 - Bucles (for, while, do...while)</title>
+</head>
+<body>
+  <h1>Laboratorio 12 - Bucles en JavaScript</h1>
+
+  <section>
+    <h2>Ejercicio 1 - Bucle for (suma y promedio)</h2>
+    <textarea id="lista1" rows="3" placeholder="Ingresa números separados por comas, ej: 5,10,3"></textarea><br>
+    <button onclick="ejercicioFor()">Calcular suma y promedio</button>
+    <p id="salida1"></p>
+  </section>
+
+  <section>
+    <h2>Ejercicio 2 - Bucle while (leer hasta número negativo)</h2>
+    <input id="numero2" type="number" placeholder="Ingresa un número">
+    <button onclick="agregarNumeroWhile()">Agregar</button>
+    <button onclick="finalizarWhile()">Finalizar (mostrar resultado)</button>
+    <p id="salida2"></p>
+  </section>
+
+  <section>
+    <h2>Ejercicio 3 - Bucle do...while (pedir contraseña)</h2>
+    <input id="pass3" type="text" placeholder="Ingresa contraseña">
+    <button onclick="intentarPassword()">Enviar</button>
+    <p id="salida3"></p>
+  </section>
+
+  <script src="js/ejercicio1_for.js"></script>
+  <script src="js/ejercicio2_while.js"></script>
+  <script src="js/ejercicio3_do_while.js"></script>
+</body>
+</html>
